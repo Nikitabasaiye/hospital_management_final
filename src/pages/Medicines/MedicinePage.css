@@ -1,0 +1,74 @@
+/* 
+.medicine-page {
+    margin-top: 100px;
+    background-color: #fdfaf7;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .search-input {
+    width: 80%;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 20px;
+    font-size: 1rem;
+  }
+  
+  .category-card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.8s ease-in;
+  }
+  
+  .category-title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .item-button {
+    margin: 0.3rem 0.2rem;
+    border: none;
+    border-radius: 15px;
+    padding: 0.4rem 0.8rem;
+    background-color: #f3f3f3;
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  .item-button:hover,
+  .item-button.selected {
+    background-color: #66b3ff;
+    color: #fff;
+  }
+  
+  .more-button {
+    margin-top: 0.5rem;
+  }
+  
+  .next-button {
+    background-color: #66b3ff;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 25px;
+  }
+  
+  .next-button:hover {
+    background-color: #3385ff;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+   */

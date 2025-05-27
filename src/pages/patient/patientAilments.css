@@ -1,0 +1,85 @@
+/* Container styling */
+.ailments-container {
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8f9fa;
+    height: 100vh;
+    /* width: auto; */
+  }
+  
+  .ailments-container.css-5c1adp-MuiContainer-root{
+    width: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+     background: linear-gradient(to right, #ffffff, #f1f3f4);
+  }
+  /* Card styling */
+  .ailments-card {
+    background: linear-gradient(to right, #ffffff, #f1f3f4);
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 700px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Title styling */
+  .ailments-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* List styling */
+  .ailments-list {
+    padding: 10px 20px;
+  }
+  
+  /* Individual ailment items */
+  .ailment-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Ailment icon */
+  .ailment-icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: #007bff;
+  }
+  
+  /* Ailment text */
+  .ailment-text {
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  /* Last item without border */
+  .ailment-item:last-child {
+    border-bottom: none;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
