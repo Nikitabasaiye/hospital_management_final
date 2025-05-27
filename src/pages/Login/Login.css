@@ -1,0 +1,99 @@
+/* Slide-in animation */
+@keyframes slideIn {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Slide-out animation */
+  @keyframes slideOut {
+    0% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Fade-out animation */
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Apply the animation to the form containers */
+  .tab-content {
+    animation: fadeIn 0.5s ease-in-out;
+    transition: all 0.5s ease;
+  }
+  
+  /* Form fields animation */
+  .form-control {
+    animation: fadeIn 0.5s ease-in;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Button animation */
+  .btn-primary {
+    animation: slideIn 0.5s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  /* Animation for social login buttons */
+  .btn-soft-primary {
+    animation: fadeIn 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+  }
+  
+  /* Hover effect for buttons */
+  .btn-primary:hover,
+  .btn-soft-primary:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Back to home button animation */
+  .btn-icon {
+    animation: slideIn 0.7s ease-in-out;
+    transition: transform 0.5s ease;
+  }
+  
+  /* Animations for the tabs */
+  .MuiTab-root {
+    animation: fadeIn 0.6s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  /* When active tab is clicked, apply a subtle zoom-in effect */
+  .Mui-selected {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in;
+  }
+  
+  /* Apply animation when switching tabs */
+  .login-form {
+    animation: slideIn 0.5s ease-in-out;
+  }
+  
+  
